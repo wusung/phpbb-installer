@@ -21,8 +21,9 @@ sudo rm -rf vendor
 sudo chmod a+w config.php
 sudo composer update
 sudo composer require aws/aws-sdk-php
-sudo git clone https://github.com/wusung/phpbb-extension-s3.git ext/austinmaddox/s3
 
+cd /var/www/html/phpBB3
+sudo git clone https://github.com/wusung/phpbb-extension-s3.git ext/austinmaddox/s3
 cd /var/www/html/phpBB3/ext/austinmaddox/s3
 sudo rm -rf vendor
 sudo composer update
