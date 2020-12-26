@@ -28,5 +28,3 @@ sudo rm -rf vendor
 sudo composer update
 sudo composer require ocramius/proxy-manager
 sudo composer require guzzlehttp/guzzle:6.3
-
-sudo rm -rf /var/www/html/phpBB3/install
